@@ -50,6 +50,18 @@
       "familyStatus": "single",
       "language": "en",
       "createdAt": "2026-02-27T09:19:23.385Z"
+    },
+    {
+      "identifier": "abcd@gmail.com",
+      "password": "rakesh@143",
+      "age": 25,
+      "income": 50000,
+      "pincode": "500001",
+      "occupation": "",
+      "gender": "male",
+      "familyStatus": "single",
+      "language": "en",
+      "createdAt": "2026-02-27T11:21:45.600Z"
     }
   ]
 }

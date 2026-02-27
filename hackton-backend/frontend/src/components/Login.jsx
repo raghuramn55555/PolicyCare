@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
 
@@ -7,8 +7,8 @@ const api = axios.create({
     baseURL: 'http://localhost:5000/api/auth'
 });
 
-function Login({ onLoginSuccess }) {
-    const [mode, setMode] = useState('login'); // 'login' or 'signup'
+function Login({ onLoginSuccess, initialMode = 'login' }) {
+    const [mode, setMode] = useState(initialMode); // 'login' or 'signup'
     const [identifier, setIdentifier] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
@@ -26,6 +26,10 @@ function Login({ onLoginSuccess }) {
     const [gender, setGender] = useState('');
     const [familyStatus, setFamilyStatus] = useState('single');
     const [language, setLanguage] = useState('en');
+
+    useEffect(() => {
+        setMode(initialMode);
+    }, [initialMode]);
 
     const toggleMode = () => {
         setMode(mode === 'login' ? 'signup' : 'login');
