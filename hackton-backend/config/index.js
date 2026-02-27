@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, '..');
 
 const config = {
-    port: Number(process.env.PORT) || 5000,
+    port: Number(process.env.PORT) || 8000,
     openaiApiKey: process.env.OPENAI_API_KEY || null,
     supportedLanguages: ['en', 'te', 'hi'],
     paths: {

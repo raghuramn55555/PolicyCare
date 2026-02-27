@@ -3,10 +3,10 @@ import UserProfileForm from '../components/UserProfileForm';
 import PolicyDetails from '../components/PolicyDetails';
 import PolicyFeed from '../components/PolicyFeed';
 import PopularSection from '../components/PopularSection';
-import FloatingChatbot from '../components/FloatingChatbot';
 import { useAuth } from '../auth/AuthContext';
 import { useState } from 'react';
 import axios from 'axios';
+import Chatbot from '../components/Chatbot';
 
 function DashboardPage() {
   const { user, logout } = useAuth();
@@ -107,11 +107,9 @@ function DashboardPage() {
           </p>
         </div>
       </footer>
-
-      <FloatingChatbot userProfile={user} />
+    <Chatbot />
     </>
   );
 }
 
 export default DashboardPage;
-
