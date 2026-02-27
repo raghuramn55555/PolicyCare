@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "identifier": "realtest1767398818409",
+      "password": "password123",
+      "createdAt": "2026-01-03T00:06:58.671Z"
+    },
+    {
+      "identifier": "rakeshbunny7609@gmail.com",
+      "password": "rakesh143",
+      "createdAt": "2026-01-03T00:07:53.160Z"
+    },
+    {
+      "identifier": "rakeshkoraganji2@gmail.com",
+      "password": "rakesh@143k",
+      "createdAt": "2026-01-03T00:08:40.526Z"
+    },
+    {
+      "identifier": "asdfhjkygvthbnggf@gmail.com",
+      "password": "2341",
+      "age": 25,
+      "income": 6899876,
+      "pincode": "5463637",
+      "occupation": "student",
+      "gender": "male",
+      "familyStatus": "single",
+      "language": "en",
+      "createdAt": "2026-02-26T20:48:38.846Z"
+    },
+    {
+      "identifier": "nallabati.raghuram12@gmail.com",
+      "password": "Nrr@123",
+      "age": 25,
+      "income": 499999,
+      "pincode": "535001",
+      "occupation": "student",
+      "gender": "male",
+      "familyStatus": "single",
+      "language": "en",
+      "createdAt": "2026-02-27T06:36:40.544Z"
+    },
+    {
+      "identifier": "nallabati.raghuram1@gmail.com",
+      "password": "Nrr@123",
+      "age": 25,
+      "income": 499999,
+      "pincode": "535001",
+      "occupation": "student",
+      "gender": "male",
+      "familyStatus": "single",
+      "language": "en",
+      "createdAt": "2026-02-27T09:19:23.385Z"
+    }
+  ]
+}

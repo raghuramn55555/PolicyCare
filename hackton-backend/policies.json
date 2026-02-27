@@ -1,0 +1,1347 @@
+{
+  "policies": [
+    {
+      "id": "scheme_pmjay",
+      "type": "government_scheme",
+      "category": "Health Insurance",
+      "name": {
+        "en": "Ayushman Bharat (PM-JAY)",
+        "te": "ఆయుష్మాన్ భారత్",
+        "hi": "आयुष्मान भारत"
+      },
+      "description": {
+        "en": "World's largest health insurance scheme providing ₹5 lakh coverage per family per year for secondary and tertiary hospitalisation.",
+        "te": "కుటుంబానికి సంవత్సరానికి ₹5 లక్షల ఆరోగ్య బీమా.",
+        "hi": "प्रति परिवार प्रति वर्ष ₹5 लाख स्वास्थ्य बीमा।"
+      },
+      "benefits": {
+        "en": "Cashless treatment at empanelled hospitals. Covers pre & post hospitalisation expenses. No cap on family size. Free medicines and diagnostics.",
+        "te": "ప్యానెల్ చేయబడిన ఆసుపత్రులలో క్యాష్‌లెస్ చికిత్స. ఉచిత మందులు మరియు డయాగ్నోస్టిక్స్.",
+        "hi": "सूचीबद्ध अस्पतालों में कैशलेस इलाज। मुफ्त दवाएं और निदान।"
+      },
+      "eligibility": {
+        "en": "BPL families identified via SECC database. No age limit. Automatic enrolment for eligible families. Now extended to all citizens aged 70+.",
+        "te": "SECC డేటా ద్వారా గుర్తించిన BPL కుటుంబాలు. 70+ వయస్సు ఉన్న పౌరులకు విస్తరించబడింది.",
+        "hi": "SECC डेटा के माध्यम से पहचाने गए BPL परिवार। 70+ आयु के नागरिकों तक विस्तारित।"
+      },
+      "how_to_apply": {
+        "en": "Visit nearest Ayushman Bharat Kendra or empanelled hospital with Aadhaar card. Check eligibility at pmjay.gov.in.",
+        "te": "సమీపంలోని ఆయుష్మాన్ భారత్ కేంద్రాన్ని సందర్శించండి.",
+        "hi": "निकटतम आयुष्मान भारत केंद्र जाएं।"
+      },
+      "minAge": 0,
+      "maxAge": 100,
+      "maxIncome": 250000,
+      "official_source": "https://pmjay.gov.in",
+      "video": "/videos/en/pmjay.mp4"
+    },
+    {
+      "id": "scheme_ayushman_vaya",
+      "type": "government_scheme",
+      "category": "Senior Citizen Health",
+      "name": {
+        "en": "Ayushman Vaya Vandana Card",
+        "te": "ఆయుష్మాన్ వయ వందన కార్డ్",
+        "hi": "आयुष्मान वय वंदना कार्ड"
+      },
+      "description": {
+        "en": "Special health coverage for senior citizens aged 70+ with ₹5 lakh annual coverage regardless of income. Free treatment at any empanelled hospital nationwide.",
+        "te": "70+ వయస్సు ఉన్న సీనియర్ సిటిజన్లకు ఆదాయంతో సంబంధం లేకుండా ₹5 లక్షల వార్షిక కవరేజ్.",
+        "hi": "70+ आयु के वरिष्ठ नागरिकों के लिए आय की परवाह किए बिना ₹5 लाख वार्षिक कवरेज।"
+      },
+      "benefits": {
+        "en": "₹5 lakh health coverage per year. Cashless treatment nationwide. Covers critical illnesses, surgeries, and hospitalization. No income criteria.",
+        "te": "సంవత్సరానికి ₹5 లక్షల ఆరోగ్య కవరేజ్. దేశవ్యాప్తంగా క్యాష్‌లెస్ చికిత్స.",
+        "hi": "प्रति वर्ष ₹5 लाख स्वास्थ्य कवरेज। देशव्यापी कैशलेस उपचार।"
+      },
+      "eligibility": {
+        "en": "All Indian citizens aged 70 years and above, regardless of annual income.",
+        "te": "వార్షిక ఆదాయంతో సంబంధం లేకుండా 70 సంవత్సరాలు మరియు అంతకంటే ఎక్కువ వయస్సు ఉన్న భారతీయ పౌరులు.",
+        "hi": "वार्षिक आय की परवाह किए बिना 70 वर्ष और उससे अधिक आयु के सभी भारतीय नागरिक।"
+      },
+      "how_to_apply": {
+        "en": "Visit Ayushman Bharat Health and Wellness Centre with Aadhaar. Download card from pmjay.gov.in portal.",
+        "te": "ఆధార్‌తో ఆయుష్మాన్ భారత్ హెల్త్ సెంటర్‌ను సందర్శించండి.",
+        "hi": "आधार के साथ आयुष्मान भारत स्वास्थ्य केंद्र जाएं।"
+      },
+      "minAge": 70,
+      "maxAge": 100,
+      "official_source": "https://pmjay.gov.in",
+      "video": "/videos/en/ayushman_vaya.mp4"
+    },
+    {
+      "id": "scheme_esis",
+      "type": "government_scheme",
+      "category": "Employee Health Insurance",
+      "name": {
+        "en": "Employees' State Insurance Scheme (ESIS)",
+        "te": "ఉద్యోగుల రాష్ట్ర బీమా పథకం",
+        "hi": "कर्मचारी राज्य बीमा योजना"
+      },
+      "description": {
+        "en": "Comprehensive medical insurance for employees earning up to ₹21,000/month. Covers employee and family with minimal contribution.",
+        "te": "నెలకు ₹21,000 వరకు సంపాదించే ఉద్యోగులకు సమగ్ర వైద్య బీమా.",
+        "hi": "₹21,000/माह तक कमाने वाले कर्मचारियों के लिए व्यापक चिकित्सा बीमा।"
+      },
+      "benefits": {
+        "en": "Free medical care at ESI hospitals and dispensaries. Maternity benefits. Sickness benefits. Disability benefits. Dependent benefits.",
+        "te": "ESI ఆసుపత్రులు మరియు డిస్పెన్సరీలలో ఉచిత వైద్య సంరక్షణ.",
+        "hi": "ESI अस्पतालों और औषधालयों में मुफ्त चिकित्सा देखभाल।"
+      },
+      "eligibility": {
+        "en": "Employees earning up to ₹21,000/month in factories and establishments with 10+ workers.",
+        "te": "10+ కార్మికులు ఉన్న కర్మాగారాలలో నెలకు ₹21,000 వరకు సంపాదించే ఉద్యోగులు.",
+        "hi": "10+ श्रमिकों वाले कारखानों में ₹21,000/माह तक कमाने वाले कर्मचारी।"
+      },
+      "how_to_apply": {
+        "en": "Employer registers and deducts contribution. Employee gets ESI card automatically.",
+        "te": "యజమాని నమోదు చేసి సహకారాన్ని తీసివేస్తారు.",
+        "hi": "नियोक्ता पंजीकरण करता है और योगदान काटता है।"
+      },
+      "minAge": 18,
+      "maxAge": 60,
+      "maxIncome": 252000,
+      "official_source": "https://esic.gov.in",
+      "video": "/videos/en/esis.mp4"
+    },
+    {
+      "id": "scheme_rbsk",
+      "type": "government_scheme",
+      "category": "Child Health",
+      "name": {
+        "en": "Rashtriya Bal Swasthya Karyakram (RBSK)",
+        "te": "రాష్ట్రీయ బాల్ స్వాస్థ్య కార్యక్రమ",
+        "hi": "राष्ट्रीय बाल स्वास्थ्य कार्यक्रम"
+      },
+      "description": {
+        "en": "Child health screening and early intervention services for children from birth to 18 years. Free screening for 4 D's - Defects at birth, Diseases, Deficiencies, Development delays.",
+        "te": "పుట్టినప్పటి నుండి 18 సంవత్సరాల వరకు పిల్లలకు ఆరోగ్య స్క్రీనింగ్ మరియు ముందస్తు జోక్య సేవలు.",
+        "hi": "जन्म से 18 वर्ष तक के बच्चों के लिए स्वास्थ्य जांच और शीघ्र हस्तक्षेप सेवाएं।"
+      },
+      "benefits": {
+        "en": "Free health screening at schools and Anganwadi centers. Free treatment for identified conditions. Referral services for tertiary care.",
+        "te": "పాఠశాలలు మరియు అంగన్‌వాడీ కేంద్రాలలో ఉచిత ఆరోగ్య స్క్రీనింగ్.",
+        "hi": "स्कूलों और आंगनवाड़ी केंद्रों में मुफ्त स्वास्थ्य जांच।"
+      },
+      "eligibility": {
+        "en": "All children from birth to 18 years in government and government-aided schools.",
+        "te": "ప్రభుత్వ మరియు ప్రభుత్వ సహాయక పాఠశాలల్లో పుట్టినప్పటి నుండి 18 సంవత్సరాల వరకు పిల్లలు.",
+        "hi": "सरकारी और सरकारी सहायता प्राप्त स्कूलों में जन्म से 18 वर्ष तक के सभी बच्चे।"
+      },
+      "how_to_apply": {
+        "en": "Automatic coverage through schools and Anganwadi centers. Mobile health teams visit regularly.",
+        "te": "పాఠశాలలు మరియు అంగన్‌వాడీ కేంద్రాల ద్వారా స్వయంచాలక కవరేజ్.",
+        "hi": "स्कूलों और आंगनवाड़ी केंद्रों के माध्यम से स्वचालित कवरेज।"
+      },
+      "minAge": 0,
+      "maxAge": 18,
+      "official_source": "https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=818&lid=221",
+      "video": "/videos/en/rbsk.mp4"
+    },
+    {
+      "id": "scheme_jssk",
+      "type": "government_scheme",
+      "category": "Maternal Health",
+      "name": {
+        "en": "Janani Shishu Suraksha Karyakram (JSSK)",
+        "te": "జననీ శిశు సురక్ష కార్యక్రమ",
+        "hi": "जननी शिशु सुरक्षा कार्यक्रम"
+      },
+      "description": {
+        "en": "Free delivery and care for pregnant women and sick newborns. Eliminates out-of-pocket expenses for delivery in public health institutions.",
+        "te": "గర్భిణీ స్త్రీలు మరియు అనారోగ్య నవజాత శిశువులకు ఉచిత ప్రసవం మరియు సంరక్షణ.",
+        "hi": "गर्भवती महिलाओं और बीमार नवजात शिशुओं के लिए मुफ्त प्रसव और देखभाल।"
+      },
+      "benefits": {
+        "en": "Free delivery including C-section. Free medicines and diagnostics. Free diet during hospital stay. Free transport from home to facility. Free blood transfusion.",
+        "te": "C-సెక్షన్‌తో సహా ఉచిత ప్రసవం. ఉచిత మందులు మరియు డయాగ్నోస్టిక్స్.",
+        "hi": "C-सेक्शन सहित मुफ्त प्रसव। मुफ्त दवाएं और निदान।"
+      },
+      "eligibility": {
+        "en": "All pregnant women delivering in public health institutions. All sick newborns up to 30 days after birth.",
+        "te": "ప్రభుత్వ ఆరోగ్య సంస్థలలో ప్రసవించే గర్భిణీ స్త్రీలు.",
+        "hi": "सार्वजनिक स्वास्थ्य संस्थानों में प्रसव करने वाली सभी गर्भवती महिलाएं।"
+      },
+      "how_to_apply": {
+        "en": "Visit any government hospital or health center. No registration required. Automatic entitlement.",
+        "te": "ఏదైనా ప్రభుత్వ ఆసుపత్రి లేదా ఆరోగ్య కేంద్రాన్ని సందర్శించండి.",
+        "hi": "किसी भी सरकारी अस्पताल या स्वास्थ्य केंद्र पर जाएं।"
+      },
+      "minAge": 15,
+      "maxAge": 49,
+      "gender": "Female",
+      "official_source": "https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=841&lid=309",
+      "video": "/videos/en/jssk.mp4"
+    },
+    {
+      "id": "scheme_pmmvy",
+      "type": "government_scheme",
+      "category": "Maternal Health",
+      "name": {
+        "en": "PM Matru Vandana Yojana (PMMVY)",
+        "te": "పీఎం మాతృ వందన యోజన",
+        "hi": "पीएम मातृ वंदना योजना"
+      },
+      "description": {
+        "en": "Cash incentive of ₹5,000 for pregnant and lactating mothers for first living child to improve health and nutrition.",
+        "te": "మొదటి బిడ్డకు గర్భిణీ మరియు పాలిచ్చే తల్లులకు ₹5,000 నగదు ప్రోత్సాహకం.",
+        "hi": "पहले बच्चे के लिए गर्भवती और स्तनपान कराने वाली माताओं को ₹5,000 नकद प्रोत्साहन।"
+      },
+      "benefits": {
+        "en": "₹5,000 in 3 instalments. Covers partial wage loss compensation and improved nutrition. Direct bank transfer.",
+        "te": "3 వాయిదాల్లో ₹5,000. పాక్షిక వేతన నష్ట పరిహారం.",
+        "hi": "3 किस्तों में ₹5,000। आंशिक वेतन हानि मुआवजा।"
+      },
+      "eligibility": {
+        "en": "Pregnant women for first living child. Age 19 years and above. Registered at Anganwadi or health facility.",
+        "te": "మొదటి బిడ్డకు గర్భిణీ స్త్రీలు. 19 సంవత్సరాలు మరియు అంతకంటే ఎక్కువ.",
+        "hi": "पहले बच्चे के लिए गर्भवती महिलाएं। 19 वर्ष और उससे अधिक।"
+      },
+      "how_to_apply": {
+        "en": "Register at Anganwadi Centre or health facility with MCP card. Apply online at pmmvy-cas.nic.in.",
+        "te": "MCP కార్డ్‌తో అంగన్‌వాడీ కేంద్రంలో నమోదు చేసుకోండి.",
+        "hi": "MCP कार्ड के साथ आंगनवाड़ी केंद्र में पंजीकरण करें।"
+      },
+      "minAge": 19,
+      "maxAge": 45,
+      "gender": "Female",
+      "official_source": "https://wcd.nic.in/schemes/pradhan-mantri-matru-vandana-yojana",
+      "video": "/videos/en/pmmvy.mp4"
+    },
+    {
+      "id": "scheme_nmhp",
+      "type": "government_scheme",
+      "category": "Mental Health",
+      "name": {
+        "en": "National Mental Health Programme (NMHP)",
+        "te": "జాతీయ మానసిక ఆరోగ్య కార్యక్రమం",
+        "hi": "राष्ट्रीय मानसिक स्वास्थ्य कार्यक्रम"
+      },
+      "description": {
+        "en": "Provides accessible mental health services through District Mental Health Programme. Free consultation, medicines, and counseling services.",
+        "te": "జిల్లా మానసిక ఆరోగ్య కార్యక్రమం ద్వారా అందుబాటులో ఉన్న మానసిక ఆరోగ్య సేవలను అందిస్తుంది.",
+        "hi": "जिला मानसिक स्वास्थ्य कार्यक्रम के माध्यम से सुलभ मानसिक स्वास्थ्य सेवाएं प्रदान करता है।"
+      },
+      "benefits": {
+        "en": "Free mental health consultation. Free psychiatric medicines. Counseling services. Community-based rehabilitation. Helpline: 1800-599-0019 (Kiran).",
+        "te": "ఉచిత మానసిక ఆరోగ్య సంప్రదింపు. ఉచిత మానసిక మందులు.",
+        "hi": "मुफ्त मानसिक स्वास्थ्य परामर्श। मुफ्त मनोरोग दवाएं।"
+      },
+      "eligibility": {
+        "en": "All citizens requiring mental health services. No age or income restrictions.",
+        "te": "మానసిక ఆరోగ్య సేవలు అవసరమయ్యే పౌరులు.",
+        "hi": "मानसिक स्वास्थ्य सेवाओं की आवश्यकता वाले सभी नागरिक।"
+      },
+      "how_to_apply": {
+        "en": "Visit District Mental Health Programme center or call helpline 1800-599-0019. Available at district hospitals.",
+        "te": "జిల్లా మానసిక ఆరోగ్య కార్యక్రమ కేంద్రాన్ని సందర్శించండి.",
+        "hi": "जिला मानसिक स्वास्थ्य कार्यक्रम केंद्र पर जाएं।"
+      },
+      "minAge": 0,
+      "maxAge": 100,
+      "official_source": "https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=1043&lid=359",
+      "video": "/videos/en/nmhp.mp4"
+    },
+    {
+      "id": "policy_star_comprehensive",
+      "type": "insurance_policy",
+      "provider": "Star Health",
+      "category": "Health Insurance",
+      "policy_type": "Comprehensive Health",
+      "name": {
+        "en": "Star Comprehensive Insurance Policy",
+        "te": "స్టార్ సమగ్ర బీమా పాలసీ",
+        "hi": "स्टार व्यापक बीमा पॉलिसी"
+      },
+      "description": {
+        "en": "Comprehensive health coverage with sum insured up to ₹25 lakh. Covers hospitalization, day-care procedures, and pre/post hospitalization expenses.",
+        "te": "₹25 లక్షల వరకు బీమా రాశితో సమగ్ర ఆరోగ్య కవరేజ్.",
+        "hi": "₹25 लाख तक बीमा राशि के साथ व्यापक स्वास्थ्य कवरेज।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹25L. Cashless at 14,000+ hospitals. No room rent capping. Covers 30+ day-care procedures.",
+        "te": "₹3L-₹25L బీమా రాశి. 14,000+ ఆసుపత్రులలో క్యాష్‌లెస్.",
+        "hi": "₹3L-₹25L बीमा राशि। 14,000+ अस्पतालों में कैशलेस।"
+      },
+      "ideal_for": {
+        "en": "Individuals and families seeking comprehensive health coverage with no room rent restrictions.",
+        "te": "గది అద్దె పరిమితులు లేకుండా సమగ్ర ఆరోగ్య కవరేజ్ కోరుకునే వ్యక్తులు మరియు కుటుంబాలు.",
+        "hi": "कमरे के किराए की पाबंदी के बिना व्यापक स्वास्थ्य कवरेज चाहने वाले व्यक्ति और परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 8000,
+      "cta": "Get Quote",
+      "official_source": "https://starhealth.in",
+      "video": "/videos/en/star_health.mp4"
+    },
+    {
+      "id": "policy_star_senior",
+      "type": "insurance_policy",
+      "provider": "Star Health",
+      "category": "Senior Citizen Health",
+      "policy_type": "Senior Citizen Health",
+      "name": {
+        "en": "Star Senior Citizens Red Carpet Health Policy",
+        "te": "స్టార్ సీనియర్ సిటిజన్స్ రెడ్ కార్పెట్ హెల్త్ పాలసీ",
+        "hi": "स्टार सीनियर सिटीजन्स रेड कार्पेट हेल्थ पॉलिसी"
+      },
+      "description": {
+        "en": "Specialized health insurance for senior citizens aged 60-75 years. Covers pre-existing diseases from day one with comprehensive benefits.",
+        "te": "60-75 సంవత్సరాల వయస్సు ఉన్న సీనియర్ సిటిజన్లకు ప్రత్యేక ఆరోగ్య బీమా.",
+        "hi": "60-75 वर्ष की आयु के वरिष्ठ नागरिकों के लिए विशेष स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹1L-₹25L. Pre-existing diseases covered from day 1. Domiciliary hospitalization. Health check-up included.",
+        "te": "₹1L-₹25L బీమా రాశి. మొదటి రోజు నుండి ముందుగా ఉన్న వ్యాధులు కవర్.",
+        "hi": "₹1L-₹25L बीमा राशि। पहले दिन से पूर्व-मौजूदा बीमारियां कवर।"
+      },
+      "ideal_for": {
+        "en": "Senior citizens aged 60-75 with pre-existing conditions requiring comprehensive health coverage.",
+        "te": "సమగ్ర ఆరోగ్య కవరేజ్ అవసరమయ్యే ముందుగా ఉన్న పరిస్థితులతో 60-75 వయస్సు సీనియర్ సిటిజన్లు.",
+        "hi": "पूर्व-मौजूदा स्थितियों वाले 60-75 आयु के वरिष्ठ नागरिक जिन्हें व्यापक स्वास्थ्य कवरेज की आवश्यकता है।"
+      },
+      "minAge": 60,
+      "maxAge": 75,
+      "minPremium": 15000,
+      "cta": "Get Quote",
+      "official_source": "https://starhealth.in",
+      "video": "/videos/en/senior_health.mp4"
+    },
+    {
+      "id": "policy_niva_reassure",
+      "type": "insurance_policy",
+      "provider": "Niva Bupa",
+      "category": "Health Insurance",
+      "policy_type": "Family Floater",
+      "name": {
+        "en": "Niva Bupa ReAssure 2.0",
+        "te": "నివా బూపా రీఅష్యూర్ 2.0",
+        "hi": "निवा बूपा रीएश्योर 2.0"
+      },
+      "description": {
+        "en": "Comprehensive family floater plan with unlimited restoration benefit. Covers up to ₹1 crore with extensive hospital network and digital claim process.",
+        "te": "అపరిమిత పునరుద్ధరణ ప్రయోజనంతో సమగ్ర కుటుంబ ఫ్లోటర్ ప్లాన్.",
+        "hi": "असीमित बहाली लाभ के साथ व्यापक पारिवारिक फ्लोटर योजना।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹1Cr. Unlimited restoration. Cashless at 10,000+ hospitals. No co-payment. Covers AYUSH treatments.",
+        "te": "₹5L-₹1Cr బీమా రాశి. అపరిమిత పునరుద్ధరణ. 10,000+ ఆసుపత్రులలో క్యాష్‌లెస్.",
+        "hi": "₹5L-₹1Cr बीमा राशि। असीमित बहाली। 10,000+ अस्पतालों में कैशलेस।"
+      },
+      "ideal_for": {
+        "en": "Families seeking high coverage with unlimited restoration and digital-first experience.",
+        "te": "అపరిమిత పునరుద్ధరణ మరియు డిజిటల్-ఫస్ట్ అనుభవంతో అధిక కవరేజ్ కోరుకునే కుటుంబాలు.",
+        "hi": "असीमित बहाली और डिजिटल-फर्स्ट अनुभव के साथ उच्च कवरेज चाहने वाले परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 12000,
+      "cta": "Check Premium",
+      "official_source": "https://nivabupa.com",
+      "video": "/videos/en/niva_health.mp4"
+    },
+    {
+      "id": "policy_care_supreme",
+      "type": "insurance_policy",
+      "provider": "Care Health",
+      "category": "Health Insurance",
+      "policy_type": "Comprehensive Health",
+      "name": {
+        "en": "Care Supreme Health Insurance",
+        "te": "కేర్ సుప్రీమ్ హెల్త్ ఇన్సూరెన్స్",
+        "hi": "केयर सुप्रीम हेल्थ इंश्योरेंस"
+      },
+      "description": {
+        "en": "Premium health insurance with coverage up to ₹6 crore. Includes unlimited automatic restoration and comprehensive benefits for modern healthcare needs.",
+        "te": "₹6 కోట్ల వరకు కవరేజ్‌తో ప్రీమియం ఆరోగ్య బీమా.",
+        "hi": "₹6 करोड़ तक कवरेज के साथ प्रीमियम स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹6Cr. Unlimited restoration. Covers organ donor expenses. Air ambulance. International treatment coverage.",
+        "te": "₹5L-₹6Cr బీమా రాశి. అపరిమిత పునరుద్ధరణ. అవయవ దాత ఖర్చులు కవర్.",
+        "hi": "₹5L-₹6Cr बीमा राशि। असीमित बहाली। अंग दाता खर्च कवर।"
+      },
+      "ideal_for": {
+        "en": "High-net-worth individuals and families seeking premium health coverage with international treatment options.",
+        "te": "అంతర్జాతీయ చికిత్స ఎంపికలతో ప్రీమియం ఆరోగ్య కవరేజ్ కోరుకునే అధిక-నికర-విలువ వ్యక్తులు మరియు కుటుంబాలు.",
+        "hi": "अंतर्राष्ट्रीय उपचार विकल्पों के साथ प्रीमियम स्वास्थ्य कवरेज चाहने वाले उच्च-निवल-मूल्य व्यक्ति और परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 18000,
+      "cta": "Get Quote",
+      "official_source": "https://www.careinsurance.com",
+      "video": "/videos/en/care_health.mp4"
+    },
+    {
+      "id": "policy_hdfc_optima_secure",
+      "type": "insurance_policy",
+      "provider": "HDFC ERGO",
+      "category": "Health Insurance",
+      "policy_type": "Comprehensive Health",
+      "name": {
+        "en": "HDFC ERGO Optima Secure",
+        "te": "HDFC ERGO ఆప్టిమా సెక్యూర్",
+        "hi": "HDFC ERGO ऑप्टिमा सिक्योर"
+      },
+      "description": {
+        "en": "Comprehensive health plan with restore benefit and worldwide emergency coverage. Covers modern treatments including robotic surgery.",
+        "te": "పునరుద్ధరణ ప్రయోజనం మరియు ప్రపంచవ్యాప్త అత్యవసర కవరేజ్‌తో సమగ్ర ఆరోగ్య ప్లాన్.",
+        "hi": "बहाली लाभ और विश्वव्यापी आपातकालीन कवरेज के साथ व्यापक स्वास्थ्य योजना।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹50L. 100% restoration benefit. Covers robotic surgery. Worldwide emergency coverage. No room rent limit.",
+        "te": "₹3L-₹50L బీమా రాశి. 100% పునరుద్ధరణ ప్రయోజనం. రోబోటిక్ సర్జరీ కవర్.",
+        "hi": "₹3L-₹50L बीमा राशि। 100% बहाली लाभ। रोबोटिक सर्जरी कवर।"
+      },
+      "ideal_for": {
+        "en": "Individuals and families seeking comprehensive coverage with modern treatment options and worldwide emergency support.",
+        "te": "ఆధునిక చికిత్స ఎంపికలు మరియు ప్రపంచవ్యాప్త అత్యవసర మద్దతుతో సమగ్ర కవరేజ్ కోరుకునే వ్యక్తులు మరియు కుటుంబాలు.",
+        "hi": "आधुनिक उपचार विकल्पों और विश्वव्यापी आपातकालीन सहायता के साथ व्यापक कवरेज चाहने वाले व्यक्ति और परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 10000,
+      "cta": "Get Quote",
+      "official_source": "https://www.hdfcergo.com",
+      "video": "/videos/en/hdfc_health.mp4"
+    },
+    {
+      "id": "policy_max_bupa_health",
+      "type": "insurance_policy",
+      "provider": "Niva Bupa",
+      "category": "Health Insurance",
+      "policy_type": "Individual Health",
+      "name": {
+        "en": "Niva Bupa Health Premia",
+        "te": "నివా బూపా హెల్త్ ప్రీమియా",
+        "hi": "निवा बूपा हेल्थ प्रीमिया"
+      },
+      "description": {
+        "en": "Individual health insurance with comprehensive coverage including mental health and alternative treatments. Covers up to ₹2 crore.",
+        "te": "మానసిక ఆరోగ్యం మరియు ప్రత్యామ్నాయ చికిత్సలతో సహా సమగ్ర కవరేజ్‌తో వ్యక్తిగత ఆరోగ్య బీమా.",
+        "hi": "मानसिक स्वास्थ्य और वैकल्पिक उपचारों सहित व्यापक कवरेज के साथ व्यक्तिगत स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹2Cr. Mental health coverage. AYUSH treatments. Maternity benefits. Vaccination coverage.",
+        "te": "₹5L-₹2Cr బీమా రాశి. మానసిక ఆరోగ్య కవరేజ్. AYUSH చికిత్సలు.",
+        "hi": "₹5L-₹2Cr बीमा राशि। मानसिक स्वास्थ्य कवरेज। AYUSH उपचार।"
+      },
+      "ideal_for": {
+        "en": "Individuals seeking holistic health coverage including mental health and alternative medicine treatments.",
+        "te": "మానసిక ఆరోగ్యం మరియు ప్రత్యామ్నాయ వైద్య చికిత్సలతో సహా సమగ్ర ఆరోగ్య కవరేజ్ కోరుకునే వ్యక్తులు.",
+        "hi": "मानसिक स्वास्थ्य और वैकल्पिक चिकित्सा उपचार सहित समग्र स्वास्थ्य कवरेज चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 9000,
+      "cta": "Get Quote",
+      "official_source": "https://nivabupa.com",
+      "video": "/videos/en/health_premia.mp4"
+    },
+    {
+      "id": "policy_icici_health_advantage",
+      "type": "insurance_policy",
+      "provider": "ICICI Lombard",
+      "category": "Health Insurance",
+      "policy_type": "Family Floater",
+      "name": {
+        "en": "ICICI Lombard Health Advantage",
+        "te": "ICICI లొంబార్డ్ హెల్త్ అడ్వాంటేజ్",
+        "hi": "ICICI लोम्बार्ड हेल्थ एडवांटेज"
+      },
+      "description": {
+        "en": "Family floater health plan with automatic sum insured enhancement. Covers critical illnesses and provides wellness benefits.",
+        "te": "ఆటోమేటిక్ బీమా రాశి పెంపుదలతో కుటుంబ ఫ్లోటర్ ఆరోగ్య ప్లాన్.",
+        "hi": "स्वचालित बीमा राशि वृद्धि के साथ पारिवारिक फ्लोटर स्वास्थ्य योजना।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹50L. Automatic 50% increase every claim-free year. Critical illness cover. Health check-ups included.",
+        "te": "₹3L-₹50L బీమా రాశి. ప్రతి క్లెయిమ్-ఫ్రీ సంవత్సరం ఆటోమేటిక్ 50% పెరుగుదల.",
+        "hi": "₹3L-₹50L बीमा राशि। प्रत्येक दावा-मुक्त वर्ष स्वचालित 50% वृद्धि।"
+      },
+      "ideal_for": {
+        "en": "Families looking for health insurance with automatic coverage enhancement and wellness benefits.",
+        "te": "ఆటోమేటిక్ కవరేజ్ పెంపుదల మరియు వెల్నెస్ ప్రయోజనాలతో ఆరోగ్య బీమా కోరుకునే కుటుంబాలు.",
+        "hi": "स्वचालित कवरेज वृद्धि और कल्याण लाभों के साथ स्वास्थ्य बीमा चाहने वाले परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 11000,
+      "cta": "Get Quote",
+      "official_source": "https://www.icicilombard.com",
+      "video": "/videos/en/icici_health.mp4"
+    },
+    {
+      "id": "policy_aditya_birla_activ",
+      "type": "insurance_policy",
+      "provider": "Aditya Birla",
+      "category": "Health Insurance",
+      "policy_type": "Wellness Health",
+      "name": {
+        "en": "Aditya Birla Activ Health Platinum",
+        "te": "ఆదిత్య బిర్లా యాక్టివ్ హెల్త్ ప్లాటినం",
+        "hi": "आदित्य बिड़ला एक्टिव हेल्थ प्लेटिनम"
+      },
+      "description": {
+        "en": "Innovative health insurance that rewards healthy living. Premium reduces based on wellness activities and healthy lifestyle choices.",
+        "te": "ఆరోగ్యకరమైన జీవనశైలికి రివార్డ్ ఇచ్చే వినూత్న ఆరోగ్య బీమా.",
+        "hi": "स्वस्थ जीवन को पुरस्कृत करने वाला नवीन स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹4L-₹1Cr. Earn HealthReturns up to 100% of premium. Covers preventive care. Wellness coaching included.",
+        "te": "₹4L-₹1Cr బీమా రాశి. ప్రీమియంలో 100% వరకు హెల్త్‌రిటర్న్స్ సంపాదించండి.",
+        "hi": "₹4L-₹1Cr बीमा राशि। प्रीमियम का 100% तक हेल्थरिटर्न अर्जित करें।"
+      },
+      "ideal_for": {
+        "en": "Health-conscious individuals and families who maintain active lifestyles and want to be rewarded for healthy habits.",
+        "te": "ఆరోగ్య-స్పృహ కలిగిన వ్యక్తులు మరియు కుటుంబాలు ఆరోగ్యకరమైన అలవాట్లకు రివార్డ్ పొందాలనుకుంటున్నారు.",
+        "hi": "स्वास्थ्य-जागरूक व्यक्ति और परिवार जो स्वस्थ आदतों के लिए पुरस्कृत होना चाहते हैं।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 13000,
+      "cta": "Get Quote",
+      "official_source": "https://www.adityabirlacapital.com",
+      "video": "/videos/en/activ_health.mp4"
+    },
+    {
+      "id": "policy_star_diabetes",
+      "type": "insurance_policy",
+      "provider": "Star Health",
+      "category": "Specialized Health",
+      "policy_type": "Diabetes Care",
+      "name": {
+        "en": "Star Health Diabetes Safe Insurance",
+        "te": "స్టార్ హెల్త్ డయాబెటిస్ సేఫ్ ఇన్సూరెన్స్",
+        "hi": "स्टार हेल्थ डायबिटीज सेफ इंश्योरेंस"
+      },
+      "description": {
+        "en": "Specialized health insurance for diabetics covering diabetes-related complications and treatments. No waiting period for diabetes coverage.",
+        "te": "డయాబెటిస్-సంబంధిత సమస్యలు మరియు చికిత్సలను కవర్ చేసే డయాబెటిక్స్ కోసం ప్రత్యేక ఆరోగ్య బీమా.",
+        "hi": "मधुमेह से संबंधित जटिलताओं और उपचारों को कवर करने वाला मधुमेह रोगियों के लिए विशेष स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹10L. Covers diabetes complications. Insulin pump coverage. Diabetic consumables. Annual health check-up.",
+        "te": "₹3L-₹10L బీమా రాశి. డయాబెటిస్ సమస్యలను కవర్ చేస్తుంది.",
+        "hi": "₹3L-₹10L बीमा राशि। मधुमेह जटिलताओं को कवर करता है।"
+      },
+      "ideal_for": {
+        "en": "Individuals with Type 1 or Type 2 diabetes seeking comprehensive coverage for diabetes-related medical expenses.",
+        "te": "డయాబెటిస్-సంబంధిత వైద్య ఖర్చులకు సమగ్ర కవరేజ్ కోరుకునే టైప్ 1 లేదా టైప్ 2 డయాబెటిస్ ఉన్న వ్యక్తులు.",
+        "hi": "मधुमेह से संबंधित चिकित्सा खर्चों के लिए व्यापक कवरेज चाहने वाले टाइप 1 या टाइप 2 मधुमेह वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 14000,
+      "cta": "Get Quote",
+      "official_source": "https://starhealth.in",
+      "video": "/videos/en/diabetes_care.mp4"
+    },
+    {
+      "id": "policy_star_cancer",
+      "type": "insurance_policy",
+      "provider": "Star Health",
+      "category": "Specialized Health",
+      "policy_type": "Cancer Care",
+      "name": {
+        "en": "Star Cancer Care Insurance",
+        "te": "స్టార్ క్యాన్సర్ కేర్ ఇన్సూరెన్స్",
+        "hi": "स्टार कैंसर केयर इंश्योरेंस"
+      },
+      "description": {
+        "en": "Comprehensive cancer insurance covering all stages of cancer treatment including chemotherapy, radiation, and targeted therapy.",
+        "te": "కీమోథెరపీ, రేడియేషన్ మరియు టార్గెటెడ్ థెరపీతో సహా క్యాన్సర్ చికిత్స యొక్క అన్ని దశలను కవర్ చేసే సమగ్ర క్యాన్సర్ బీమా.",
+        "hi": "कीमोथेरेपी, विकिरण और लक्षित चिकित्सा सहित कैंसर उपचार के सभी चरणों को कवर करने वाला व्यापक कैंसर बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹25L. Covers all cancer stages. Bone marrow transplant. Palliative care. Second opinion coverage.",
+        "te": "₹5L-₹25L బీమా రాశి. అన్ని క్యాన్సర్ దశలను కవర్ చేస్తుంది.",
+        "hi": "₹5L-₹25L बीमा राशि। सभी कैंसर चरणों को कवर करता है।"
+      },
+      "ideal_for": {
+        "en": "Individuals with family history of cancer or seeking dedicated cancer coverage with comprehensive treatment options.",
+        "te": "క్యాన్సర్ కుటుంబ చరిత్ర ఉన్న లేదా సమగ్ర చికిత్స ఎంపికలతో అంకిత క్యాన్సర్ కవరేజ్ కోరుకునే వ్యక్తులు.",
+        "hi": "कैंसर के पारिवारिक इतिहास वाले या व्यापक उपचार विकल्पों के साथ समर्पित कैंसर कवरेज चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 16000,
+      "cta": "Get Quote",
+      "official_source": "https://starhealth.in",
+      "video": "/videos/en/cancer_care.mp4"
+    },
+    {
+      "id": "policy_niva_heartbeat",
+      "type": "insurance_policy",
+      "provider": "Niva Bupa",
+      "category": "Specialized Health",
+      "policy_type": "Cardiac Care",
+      "name": {
+        "en": "Niva Bupa Heartbeat Family Floater",
+        "te": "నివా బూపా హార్ట్‌బీట్ ఫ్యామిలీ ఫ్లోటర్",
+        "hi": "निवा बूपा हार्टबीट फैमिली फ्लोटर"
+      },
+      "description": {
+        "en": "Specialized cardiac care insurance covering heart-related treatments and surgeries. Includes preventive cardiac care and wellness programs.",
+        "te": "గుండె-సంబంధిత చికిత్సలు మరియు శస్త్రచికిత్సలను కవర్ చేసే ప్రత్యేక కార్డియాక్ కేర్ బీమా.",
+        "hi": "हृदय संबंधी उपचार और सर्जरी को कवर करने वाला विशेष हृदय देखभाल बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹50L. Covers cardiac surgeries. Angioplasty and stenting. Cardiac rehabilitation. Preventive health check-ups.",
+        "te": "₹5L-₹50L బీమా రాశి. కార్డియాక్ శస్త్రచికిత్సలను కవర్ చేస్తుంది.",
+        "hi": "₹5L-₹50L बीमा राशि। हृदय शल्य चिकित्सा को कवर करता है।"
+      },
+      "ideal_for": {
+        "en": "Families with history of cardiac conditions or individuals seeking comprehensive heart care coverage.",
+        "te": "కార్డియాక్ పరిస్థితుల చరిత్ర ఉన్న కుటుంబాలు లేదా సమగ్ర హృదయ సంరక్షణ కవరేజ్ కోరుకునే వ్యక్తులు.",
+        "hi": "हृदय रोगों के इतिहास वाले परिवार या व्यापक हृदय देखभाल कवरेज चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 15000,
+      "cta": "Get Quote",
+      "official_source": "https://nivabupa.com",
+      "video": "/videos/en/cardiac_care.mp4"
+    },
+    {
+      "id": "policy_maternity_care",
+      "type": "insurance_policy",
+      "provider": "Care Health",
+      "category": "Maternity Health",
+      "policy_type": "Maternity Insurance",
+      "name": {
+        "en": "Care Joy Maternity Health Insurance",
+        "te": "కేర్ జాయ్ మెటర్నిటీ హెల్త్ ఇన్సూరెన్స్",
+        "hi": "केयर जॉय मैटरनिटी हेल्थ इंश्योरेंस"
+      },
+      "description": {
+        "en": "Comprehensive maternity insurance covering pre and post-natal care, delivery expenses, and newborn baby coverage up to 90 days.",
+        "te": "ప్రీ మరియు పోస్ట్-నేటల్ కేర్, డెలివరీ ఖర్చులు మరియు 90 రోజుల వరకు నవజాత శిశువు కవరేజ్‌ను కవర్ చేసే సమగ్ర మెటర్నిటీ బీమా.",
+        "hi": "प्रसव पूर्व और प्रसव के बाद की देखभाल, प्रसव खर्च और 90 दिनों तक नवजात शिशु कवरेज को कवर करने वाला व्यापक मातृत्व बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Maternity cover up to ₹1L. Normal and C-section delivery. Newborn baby cover. Pre and post-natal expenses. Vaccination coverage.",
+        "te": "₹1L వరకు మెటర్నిటీ కవర్. సాధారణ మరియు C-సెక్షన్ డెలివరీ.",
+        "hi": "₹1L तक मातृत्व कवर। सामान्य और C-सेक्शन प्रसव।"
+      },
+      "ideal_for": {
+        "en": "Expecting mothers and couples planning for pregnancy seeking comprehensive maternity and newborn care coverage.",
+        "te": "సమగ్ర మెటర్నిటీ మరియు నవజాత శిశువు సంరక్షణ కవరేజ్ కోరుకునే గర్భిణీ తల్లులు మరియు గర్భధారణ ప్లాన్ చేస్తున్న జంటలు.",
+        "hi": "व्यापक मातृत्व और नवजात देखभाल कवरेज चाहने वाली गर्भवती माताएं और गर्भावस्था की योजना बना रहे जोड़े।"
+      },
+      "minAge": 18,
+      "maxAge": 45,
+      "gender": "Female",
+      "minPremium": 20000,
+      "cta": "Get Quote",
+      "official_source": "https://www.careinsurance.com",
+      "video": "/videos/en/maternity_care.mp4"
+    },
+    {
+      "id": "policy_critical_illness",
+      "type": "insurance_policy",
+      "provider": "HDFC ERGO",
+      "category": "Critical Illness",
+      "policy_type": "Critical Illness Insurance",
+      "name": {
+        "en": "HDFC ERGO Critical Illness Insurance",
+        "te": "HDFC ERGO క్రిటికల్ ఇల్‌నెస్ ఇన్సూరెన్స్",
+        "hi": "HDFC ERGO क्रिटिकल इलनेस इंश्योरेंस"
+      },
+      "description": {
+        "en": "Lump sum payout on diagnosis of critical illnesses like cancer, heart attack, stroke, kidney failure, and major organ transplant.",
+        "te": "క్యాన్సర్, గుండెపోటు, స్ట్రోక్, కిడ్నీ వైఫల్యం మరియు ప్రధాన అవయవ మార్పిడి వంటి క్లిష్ట అనారోగ్యాల నిర్ధారణపై ఏకమొత్తం చెల్లింపు.",
+        "hi": "कैंसर, दिल का दौरा, स्ट्रोक, गुर्दे की विफलता और प्रमुख अंग प्रत्यारोपण जैसी गंभीर बीमारियों के निदान पर एकमुश्त भुगतान।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹1Cr. Covers 36+ critical illnesses. Lump sum payout. No hospitalization required for claim. Tax benefits under 80D.",
+        "te": "₹5L-₹1Cr బీమా రాశి. 36+ క్లిష్ట అనారోగ్యాలను కవర్ చేస్తుంది.",
+        "hi": "₹5L-₹1Cr बीमा राशि। 36+ गंभीर बीमारियों को कवर करता है।"
+      },
+      "ideal_for": {
+        "en": "Individuals seeking financial protection against critical illnesses with lump sum payout for treatment and recovery.",
+        "te": "చికిత్స మరియు కోలుకోవడం కోసం ఏకమొత్తం చెల్లింపుతో క్లిష్ట అనారోగ్యాలకు వ్యతిరేకంగా ఆర్థిక రక్షణ కోరుకునే వ్యక్తులు.",
+        "hi": "उपचार और रिकवरी के लिए एकमुश्त भुगतान के साथ गंभीर बीमारियों के खिलाफ वित्तीय सुरक्षा चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 7000,
+      "cta": "Get Quote",
+      "official_source": "https://www.hdfcergo.com",
+      "video": "/videos/en/critical_illness.mp4"
+    },
+    {
+      "id": "policy_dental_care",
+      "type": "insurance_policy",
+      "provider": "Star Health",
+      "category": "Dental Health",
+      "policy_type": "Dental Insurance",
+      "name": {
+        "en": "Star Dental Care Insurance",
+        "te": "స్టార్ డెంటల్ కేర్ ఇన్సూరెన్స్",
+        "hi": "स्टार डेंटल केयर इंश्योरेंस"
+      },
+      "description": {
+        "en": "Comprehensive dental insurance covering routine check-ups, fillings, root canals, extractions, and major dental surgeries.",
+        "te": "రొటీన్ చెక్-అప్‌లు, ఫిల్లింగ్‌లు, రూట్ కెనాల్స్, ఎక్స్‌ట్రాక్షన్స్ మరియు ప్రధాన దంత శస్త్రచికిత్సలను కవర్ చేసే సమగ్ర దంత బీమా.",
+        "hi": "नियमित जांच, फिलिंग, रूट कैनाल, निष्कर्षण और प्रमुख दंत शल्य चिकित्सा को कवर करने वाला व्यापक दंत बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹50K-₹3L. Covers preventive and restorative dental care. Dental surgeries. Orthodontic treatments. Annual dental check-ups.",
+        "te": "₹50K-₹3L బీమా రాశి. నివారణ మరియు పునరుద్ధరణ దంత సంరక్షణను కవర్ చేస్తుంది.",
+        "hi": "₹50K-₹3L बीमा राशि। निवारक और पुनर्स्थापनात्मक दंत देखभाल को कवर करता है।"
+      },
+      "ideal_for": {
+        "en": "Individuals and families seeking comprehensive dental care coverage including preventive and major dental treatments.",
+        "te": "నివారణ మరియు ప్రధాన దంత చికిత్సలతో సహా సమగ్ర దంత సంరక్షణ కవరేజ్ కోరుకునే వ్యక్తులు మరియు కుటుంబాలు.",
+        "hi": "निवारक और प्रमुख दंत उपचार सहित व्यापक दंत देखभाल कवरेज चाहने वाले व्यक्ति और परिवार।"
+      },
+      "minAge": 5,
+      "maxAge": 75,
+      "minPremium": 3000,
+      "cta": "Get Quote",
+      "official_source": "https://starhealth.in",
+      "video": "/videos/en/dental_care.mp4"
+    },
+    {
+      "id": "scheme_cghs",
+      "type": "government_scheme",
+      "category": "Government Employee Health",
+      "name": {
+        "en": "Central Government Health Scheme (CGHS)",
+        "te": "కేంద్ర ప్రభుత్వ ఆరోగ్య పథకం",
+        "hi": "केंद्रीय सरकारी स्वास्थ्य योजना"
+      },
+      "description": {
+        "en": "Comprehensive medical care facility for Central Government employees, pensioners and their dependents. Covers OPD, hospitalization, and specialist consultations.",
+        "te": "కేంద్ర ప్రభుత్వ ఉద్యోగులు, పెన్షనర్లు మరియు వారి ఆధారితులకు సమగ్ర వైద్య సంరక్షణ సౌకర్యం.",
+        "hi": "केंद्र सरकार के कर्मचारियों, पेंशनभोगियों और उनके आश्रितों के लिए व्यापक चिकित्सा देखभाल सुविधा।"
+      },
+      "benefits": {
+        "en": "Free OPD consultations. Cashless hospitalization at empanelled hospitals. Free medicines from CGHS dispensaries. Specialist consultations. Diagnostic tests.",
+        "te": "ఉచిత OPD సంప్రదింపులు. ప్యానెల్ చేయబడిన ఆసుపత్రులలో క్యాష్‌లెస్ ఆసుపత్రి.",
+        "hi": "मुफ्त OPD परामर्श। सूचीबद्ध अस्पतालों में कैशलेस अस्पताल में भर्ती।"
+      },
+      "eligibility": {
+        "en": "Central Government employees, pensioners, MPs, judges, and freedom fighters with their dependents.",
+        "te": "కేంద్ర ప్రభుత్వ ఉద్యోగులు, పెన్షనర్లు, MPs, న్యాయమూర్తులు మరియు స్వాతంత్ర్య సమరయోధులు.",
+        "hi": "केंद्र सरकार के कर्मचारी, पेंशनभोगी, सांसद, न्यायाधीश और स्वतंत्रता सेनानी।"
+      },
+      "how_to_apply": {
+        "en": "Apply through employer or CGHS office with service documents. Online registration at cghs.gov.in.",
+        "te": "సేవా పత్రాలతో యజమాని లేదా CGHS కార్యాలయం ద్వారా దరఖాస్తు చేయండి.",
+        "hi": "सेवा दस्तावेजों के साथ नियोक्ता या CGHS कार्यालय के माध्यम से आवेदन करें।"
+      },
+      "minAge": 0,
+      "maxAge": 100,
+      "official_source": "https://cghs.gov.in",
+      "video": "/videos/en/cghs.mp4"
+    },
+    {
+      "id": "scheme_rsby",
+      "type": "government_scheme",
+      "category": "BPL Health Insurance",
+      "name": {
+        "en": "Rashtriya Swasthya Bima Yojana (RSBY)",
+        "te": "రాష్ట్రీయ స్వాస్థ్య బీమా యోజన",
+        "hi": "राष्ट्रीय स्वास्थ्य बीमा योजना"
+      },
+      "description": {
+        "en": "Health insurance scheme for BPL families providing ₹30,000 coverage per family per year. Now merged with Ayushman Bharat in most states.",
+        "te": "BPL కుటుంబాలకు కుటుంబానికి సంవత్సరానికి ₹30,000 కవరేజ్ అందించే ఆరోగ్య బీమా పథకం.",
+        "hi": "BPL परिवारों के लिए प्रति परिवार प्रति वर्ष ₹30,000 कवरेज प्रदान करने वाली स्वास्थ्य बीमा योजना।"
+      },
+      "benefits": {
+        "en": "₹30,000 coverage per family. Cashless treatment at empanelled hospitals. Covers pre-existing diseases. Smart card for easy access.",
+        "te": "కుటుంబానికి ₹30,000 కవరేజ్. ప్యానెల్ చేయబడిన ఆసుపత్రులలో క్యాష్‌లెస్ చికిత్స.",
+        "hi": "प्रति परिवार ₹30,000 कवरेज। सूचीबद्ध अस्पतालों में कैशलेस उपचार।"
+      },
+      "eligibility": {
+        "en": "BPL families identified through SECC data. Unorganized sector workers.",
+        "te": "SECC డేటా ద్వారా గుర్తించిన BPL కుటుంబాలు.",
+        "hi": "SECC डेटा के माध्यम से पहचाने गए BPL परिवार।"
+      },
+      "how_to_apply": {
+        "en": "Contact local health office or district nodal officer. Enrollment through designated centers.",
+        "te": "స్థానిక ఆరోగ్య కార్యాలయం లేదా జిల్లా నోడల్ అధికారిని సంప్రదించండి.",
+        "hi": "स्थानीय स्वास्थ्य कार्यालय या जिला नोडल अधिकारी से संपर्क करें।"
+      },
+      "minAge": 0,
+      "maxAge": 100,
+      "maxIncome": 200000,
+      "official_source": "https://www.rsby.gov.in",
+      "video": "/videos/en/rsby.mp4"
+    },
+    {
+      "id": "scheme_aarogyasri",
+      "type": "government_scheme",
+      "category": "State Health Insurance",
+      "name": {
+        "en": "Aarogyasri Health Insurance (Telangana/AP)",
+        "te": "ఆరోగ్యశ్రీ ఆరోగ్య బీమా",
+        "hi": "आरोग्यश्री स्वास्थ्य बीमा"
+      },
+      "description": {
+        "en": "State government health insurance providing ₹5 lakh coverage for serious ailments and surgeries. Available in Telangana and Andhra Pradesh.",
+        "te": "తీవ్రమైన అనారోగ్యాలు మరియు శస్త్రచికిత్సలకు ₹5 లక్షల కవరేజ్ అందించే రాష్ట్ర ప్రభుత్వ ఆరోగ్య బీమా.",
+        "hi": "गंभीर बीमारियों और सर्जरी के लिए ₹5 लाख कवरेज प्रदान करने वाला राज्य सरकार का स्वास्थ्य बीमा।"
+      },
+      "benefits": {
+        "en": "₹5 lakh coverage for serious illnesses. Covers 2,000+ procedures. Cashless treatment at network hospitals. Free ambulance service.",
+        "te": "తీవ్రమైన అనారోగ్యాలకు ₹5 లక్షల కవరేజ్. 2,000+ ప్రక్రియలను కవర్ చేస్తుంది.",
+        "hi": "गंभीर बीमारियों के लिए ₹5 लाख कवरेज। 2,000+ प्रक्रियाओं को कवर करता है।"
+      },
+      "eligibility": {
+        "en": "White ration card holders in Telangana and Andhra Pradesh. Annual income below ₹5 lakh.",
+        "te": "తెలంగాణ మరియు ఆంధ్రప్రదేశ్‌లో తెల్ల రేషన్ కార్డు హోల్డర్లు.",
+        "hi": "तेलंगाना और आंध्र प्रदेश में सफेद राशन कार्ड धारक।"
+      },
+      "how_to_apply": {
+        "en": "Visit Aarogyasri Health Care Trust office or apply online at aarogyasri.telangana.gov.in.",
+        "te": "ఆరోగ్యశ్రీ హెల్త్ కేర్ ట్రస్ట్ కార్యాలయాన్ని సందర్శించండి.",
+        "hi": "आरोग्यश्री हेल्थ केयर ट्रस्ट कार्यालय जाएं।"
+      },
+      "minAge": 0,
+      "maxAge": 100,
+      "maxIncome": 500000,
+      "official_source": "https://aarogyasri.telangana.gov.in",
+      "video": "/videos/en/aarogyasri.mp4"
+    },
+    {
+      "id": "policy_bajaj_health_guard",
+      "type": "insurance_policy",
+      "provider": "Bajaj Allianz",
+      "category": "Health Insurance",
+      "policy_type": "Individual Health",
+      "name": {
+        "en": "Bajaj Allianz Health Guard",
+        "te": "బజాజ్ అలియాంజ్ హెల్త్ గార్డ్",
+        "hi": "बजाज आलियांज हेल्थ गार्ड"
+      },
+      "description": {
+        "en": "Comprehensive individual health insurance with coverage up to ₹1 crore. Includes worldwide emergency coverage and no room rent capping.",
+        "te": "₹1 కోటి వరకు కవరేజ్‌తో సమగ్ర వ్యక్తిగత ఆరోగ్య బీమా.",
+        "hi": "₹1 करोड़ तक कवरेज के साथ व्यापक व्यक्तिगत स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹1.5L-₹1Cr. No room rent limit. Worldwide emergency cover. Day-care procedures. Organ donor expenses.",
+        "te": "₹1.5L-₹1Cr బీమా రాశి. గది అద్దె పరిమితి లేదు.",
+        "hi": "₹1.5L-₹1Cr बीमा राशि। कमरे के किराए की सीमा नहीं।"
+      },
+      "ideal_for": {
+        "en": "Individuals seeking comprehensive health coverage with international emergency support and no room rent restrictions.",
+        "te": "అంతర్జాతీయ అత్యవసర మద్దతు మరియు గది అద్దె పరిమితులు లేకుండా సమగ్ర ఆరోగ్య కవరేజ్ కోరుకునే వ్యక్తులు.",
+        "hi": "अंतर्राष्ट्रीय आपातकालीन सहायता और कमरे के किराए की पाबंदी के बिना व्यापक स्वास्थ्य कवरेज चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 7500,
+      "cta": "Get Quote",
+      "official_source": "https://www.bajajallianz.com",
+      "video": "/videos/en/bajaj_health.mp4"
+    },
+    {
+      "id": "policy_sbi_arogya_premier",
+      "type": "insurance_policy",
+      "provider": "SBI General",
+      "category": "Health Insurance",
+      "policy_type": "Family Floater",
+      "name": {
+        "en": "SBI Arogya Premier Policy",
+        "te": "SBI ఆరోగ్య ప్రీమియర్ పాలసీ",
+        "hi": "SBI आरोग्य प्रीमियर पॉलिसी"
+      },
+      "description": {
+        "en": "Premium family floater health plan with unlimited restoration and comprehensive coverage including modern treatments.",
+        "te": "అపరిమిత పునరుద్ధరణ మరియు ఆధునిక చికిత్సలతో సహా సమగ్ర కవరేజ్‌తో ప్రీమియం కుటుంబ ఫ్లోటర్ ఆరోగ్య ప్లాన్.",
+        "hi": "असीमित बहाली और आधुनिक उपचारों सहित व्यापक कवरेज के साथ प्रीमियम पारिवारिक फ्लोटर स्वास्थ्य योजना।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹50L. Unlimited restoration. Covers robotic surgery. Bariatric surgery. Stem cell therapy.",
+        "te": "₹5L-₹50L బీమా రాశి. అపరిమిత పునరుద్ధరణ. రోబోటిక్ సర్జరీ కవర్.",
+        "hi": "₹5L-₹50L बीमा राशि। असीमित बहाली। रोबोटिक सर्जरी कवर।"
+      },
+      "ideal_for": {
+        "en": "Families seeking premium health coverage with modern treatment options and unlimited restoration benefit.",
+        "te": "ఆధునిక చికిత్స ఎంపికలు మరియు అపరిమిత పునరుద్ధరణ ప్రయోజనంతో ప్రీమియం ఆరోగ్య కవరేజ్ కోరుకునే కుటుంబాలు.",
+        "hi": "आधुनिक उपचार विकल्पों और असीमित बहाली लाभ के साथ प्रीमियम स्वास्थ्य कवरेज चाहने वाले परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 14000,
+      "cta": "Get Quote",
+      "official_source": "https://www.sbigeneral.in",
+      "video": "/videos/en/sbi_health.mp4"
+    }
+,
+    {
+      "id": "policy_lic_cancer_cover",
+      "type": "insurance_policy",
+      "provider": "LIC",
+      "category": "Critical Illness",
+      "policy_type": "Cancer Insurance",
+      "name": {
+        "en": "LIC Cancer Cover Plan",
+        "te": "LIC క్యాన్సర్ కవర్ ప్లాన్",
+        "hi": "LIC कैंसर कवर प्लान"
+      },
+      "description": {
+        "en": "Dedicated cancer insurance providing lump sum benefit on diagnosis of cancer at any stage. Covers treatment costs and income replacement.",
+        "te": "ఏ దశలోనైనా క్యాన్సర్ నిర్ధారణపై ఏకమొత్తం ప్రయోజనాన్ని అందించే అంకిత క్యాన్సర్ బీమా.",
+        "hi": "किसी भी चरण में कैंसर के निदान पर एकमुश्त लाभ प्रदान करने वाला समर्पित कैंसर बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹10L-₹50L. Lump sum on diagnosis. Covers all cancer stages. Additional benefit for early stage cancer.",
+        "te": "₹10L-₹50L బీమా రాశి. నిర్ధారణపై ఏకమొత్తం.",
+        "hi": "₹10L-₹50L बीमा राशि। निदान पर एकमुश्त।"
+      },
+      "ideal_for": {
+        "en": "Individuals with family history of cancer or seeking dedicated cancer coverage with lump sum payout.",
+        "te": "క్యాన్సర్ కుటుంబ చరిత్ర ఉన్న లేదా ఏకమొత్తం చెల్లింపుతో అంకిత క్యాన్సర్ కవరేజ్ కోరుకునే వ్యక్తులు.",
+        "hi": "कैंसर के पारिवारिक इतिहास वाले या एकमुश्त भुगतान के साथ समर्पित कैंसर कवरेज चाहने वाले व्यक्ति।"
+      },
+      "minAge": 20,
+      "maxAge": 65,
+      "minPremium": 5000,
+      "cta": "Get Quote",
+      "official_source": "https://licindia.in",
+      "video": "/videos/en/lic_cancer.mp4"
+    },
+    {
+      "id": "policy_max_bupa_go_active",
+      "type": "insurance_policy",
+      "provider": "Niva Bupa",
+      "category": "Health Insurance",
+      "policy_type": "Wellness Health",
+      "name": {
+        "en": "Niva Bupa GoActive Health Insurance",
+        "te": "నివా బూపా గోయాక్టివ్ హెల్త్ ఇన్సూరెన్స్",
+        "hi": "निवा बूपा गोएक्टिव हेल्थ इंश्योरेंस"
+      },
+      "description": {
+        "en": "Innovative health insurance that rewards fitness activities. Premium discounts based on daily steps, gym visits, and health check-ups.",
+        "te": "ఫిట్‌నెస్ కార్యకలాపాలకు రివార్డ్ ఇచ్చే వినూత్న ఆరోగ్య బీమా.",
+        "hi": "फिटनेस गतिविधियों को पुरस्कृत करने वाला नवीन स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹1Cr. Earn premium discounts up to 30%. Wellness rewards. Free health check-ups. Fitness tracker integration.",
+        "te": "₹3L-₹1Cr బీమా రాశి. 30% వరకు ప్రీమియం తగ్గింపులు సంపాదించండి.",
+        "hi": "₹3L-₹1Cr बीमा राशि। 30% तक प्रीमियम छूट अर्जित करें।"
+      },
+      "ideal_for": {
+        "en": "Fitness enthusiasts and health-conscious individuals who want to be rewarded for maintaining active lifestyles.",
+        "te": "చురుకైన జీవనశైలిని కొనసాగించడం కోసం రివార్డ్ పొందాలనుకునే ఫిట్‌నెస్ ఔత్సాహికులు మరియు ఆరోగ్య-స్పృహ కలిగిన వ్యక్తులు.",
+        "hi": "सक्रिय जीवनशैली बनाए रखने के लिए पुरस्कृत होना चाहने वाले फिटनेस उत्साही और स्वास्थ्य-जागरूक व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 11000,
+      "cta": "Get Quote",
+      "official_source": "https://nivabupa.com",
+      "video": "/videos/en/goactive.mp4"
+    }
+,
+    {
+      "id": "policy_tata_aig_medicare",
+      "type": "insurance_policy",
+      "provider": "Tata AIG",
+      "category": "Health Insurance",
+      "policy_type": "Family Floater",
+      "name": {
+        "en": "Tata AIG Medicare Premier",
+        "te": "టాటా AIG మెడికేర్ ప్రీమియర్",
+        "hi": "टाटा AIG मेडिकेयर प्रीमियर"
+      },
+      "description": {
+        "en": "Comprehensive family health insurance with OPD coverage, wellness benefits, and unlimited restoration. Covers modern treatments and alternative medicine.",
+        "te": "OPD కవరేజ్, వెల్నెస్ ప్రయోజనాలు మరియు అపరిమిత పునరుద్ధరణతో సమగ్ర కుటుంబ ఆరోగ్య బీమా.",
+        "hi": "OPD कवरेज, कल्याण लाभ और असीमित बहाली के साथ व्यापक पारिवारिक स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹1Cr. OPD coverage included. Unlimited restoration. AYUSH treatments. Maternity benefits. Vaccination coverage.",
+        "te": "₹3L-₹1Cr బీమా రాశి. OPD కవరేజ్ చేర్చబడింది.",
+        "hi": "₹3L-₹1Cr बीमा राशि। OPD कवरेज शामिल।"
+      },
+      "ideal_for": {
+        "en": "Families seeking comprehensive coverage including OPD expenses and alternative medicine treatments.",
+        "te": "OPD ఖర్చులు మరియు ప్రత్యామ్నాయ వైద్య చికిత్సలతో సహా సమగ్ర కవరేజ్ కోరుకునే కుటుంబాలు.",
+        "hi": "OPD खर्च और वैकल्पिक चिकित्सा उपचार सहित व्यापक कवरेज चाहने वाले परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 13000,
+      "cta": "Get Quote",
+      "official_source": "https://www.tataaig.com",
+      "video": "/videos/en/tata_health.mp4"
+    },
+    {
+      "id": "policy_reliance_health_gain",
+      "type": "insurance_policy",
+      "provider": "Reliance General",
+      "category": "Health Insurance",
+      "policy_type": "Individual Health",
+      "name": {
+        "en": "Reliance Health Gain Insurance",
+        "te": "రిలయన్స్ హెల్త్ గెయిన్ ఇన్సూరెన్స్",
+        "hi": "रिलायंस हेल्थ गेन इंश्योरेंस"
+      },
+      "description": {
+        "en": "Individual health plan with automatic sum insured increase every claim-free year. Covers hospitalization, day-care, and critical illnesses.",
+        "te": "ప్రతి క్లెయిమ్-ఫ్రీ సంవత్సరం ఆటోమేటిక్ బీమా రాశి పెరుగుదలతో వ్యక్తిగత ఆరోగ్య ప్లాన్.",
+        "hi": "प्रत्येक दावा-मुक्त वर्ष स्वचालित बीमा राशि वृद्धि के साथ व्यक्तिगत स्वास्थ्य योजना।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹2L-₹25L. 50% increase every claim-free year. Critical illness cover. Day-care procedures. Health check-ups.",
+        "te": "₹2L-₹25L బీమా రాశి. ప్రతి క్లెయిమ్-ఫ్రీ సంవత్సరం 50% పెరుగుదల.",
+        "hi": "₹2L-₹25L बीमा राशि। प्रत्येक दावा-मुक्त वर्ष 50% वृद्धि।"
+      },
+      "ideal_for": {
+        "en": "Individuals seeking health insurance with automatic coverage enhancement for maintaining good health.",
+        "te": "మంచి ఆరోగ్యాన్ని కొనసాగించడం కోసం ఆటోమేటిక్ కవరేజ్ పెంపుదలతో ఆరోగ్య బీమా కోరుకునే వ్యక్తులు.",
+        "hi": "अच्छे स्वास्थ्य को बनाए रखने के लिए स्वचालित कवरेज वृद्धि के साथ स्वास्थ्य बीमा चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 8500,
+      "cta": "Get Quote",
+      "official_source": "https://www.reliancegeneral.co.in",
+      "video": "/videos/en/reliance_health.mp4"
+    },
+    {
+      "id": "policy_oriental_hope",
+      "type": "insurance_policy",
+      "provider": "Oriental Insurance",
+      "category": "Health Insurance",
+      "policy_type": "Family Floater",
+      "name": {
+        "en": "Oriental Hope Health Insurance",
+        "te": "ఓరియంటల్ హోప్ హెల్త్ ఇన్సూరెన్స్",
+        "hi": "ओरिएंटल होप हेल्थ इंश्योरेंस"
+      },
+      "description": {
+        "en": "Affordable family floater plan with comprehensive coverage including pre and post hospitalization expenses.",
+        "te": "ముందు మరియు తర్వాత ఆసుపత్రి ఖర్చులతో సహా సమగ్ర కవరేజ్‌తో అందుబాటు కుటుంబ ఫ్లోటర్ ప్లాన్.",
+        "hi": "पूर्व और बाद अस्पताल में भर्ती खर्चों सहित व्यापक कवरेज के साथ किफायती पारिवारिक फ्लोटर योजना।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹1L-₹10L. Pre and post hospitalization. Day-care procedures. Ambulance charges. Domiciliary treatment.",
+        "te": "₹1L-₹10L బీమా రాశి. ముందు మరియు తర్వాత ఆసుపత్రి.",
+        "hi": "₹1L-₹10L बीमा राशि। पूर्व और बाद अस्पताल में भर्ती।"
+      },
+      "ideal_for": {
+        "en": "Budget-conscious families seeking basic yet comprehensive health coverage.",
+        "te": "ప్రాథమిక కానీ సమగ్ర ఆరోగ్య కవరేజ్ కోరుకునే బడ్జెట్-స్పృహ కుటుంబాలు.",
+        "hi": "बुनियादी लेकिन व्यापक स्वास्थ्य कवरेज चाहने वाले बजट-सचेत परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 6000,
+      "cta": "Get Quote",
+      "official_source": "https://www.orientalinsurance.org.in",
+      "video": "/videos/en/oriental_health.mp4"
+    }
+,
+    {
+      "id": "policy_digit_health",
+      "type": "insurance_policy",
+      "provider": "Digit Insurance",
+      "category": "Health Insurance",
+      "policy_type": "Individual Health",
+      "name": {
+        "en": "Digit Health Insurance",
+        "te": "డిజిట్ హెల్త్ ఇన్సూరెన్స్",
+        "hi": "डिजिट हेल्थ इंश्योरेंस"
+      },
+      "description": {
+        "en": "Digital-first health insurance with instant policy issuance and paperless claims. Covers hospitalization, day-care, and modern treatments.",
+        "te": "తక్షణ పాలసీ జారీ మరియు కాగితం లేని క్లెయిమ్‌లతో డిజిటల్-ఫస్ట్ ఆరోగ్య బీమా.",
+        "hi": "तत्काल पॉलिसी जारी करने और कागज रहित दावों के साथ डिजिटल-फर्स्ट स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹1Cr. Instant policy issuance. Paperless claims. No room rent capping. Covers robotic surgery.",
+        "te": "₹3L-₹1Cr బీమా రాశి. తక్షణ పాలసీ జారీ.",
+        "hi": "₹3L-₹1Cr बीमा राशि। तत्काल पॉलिसी जारी करना।"
+      },
+      "ideal_for": {
+        "en": "Tech-savvy individuals seeking hassle-free digital health insurance with quick claim settlement.",
+        "te": "త్వరిత క్లెయిమ్ సెటిల్‌మెంట్‌తో ఇబ్బంది లేని డిజిటల్ ఆరోగ్య బీమా కోరుకునే టెక్-అవగాహన వ్యక్తులు.",
+        "hi": "त्वरित दावा निपटान के साथ परेशानी मुक्त डिजिटल स्वास्थ्य बीमा चाहने वाले तकनीक-प्रेमी व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 9500,
+      "cta": "Get Quote",
+      "official_source": "https://www.godigit.com",
+      "video": "/videos/en/digit_health.mp4"
+    },
+    {
+      "id": "policy_manipal_cigna_prohealth",
+      "type": "insurance_policy",
+      "provider": "Manipal Cigna",
+      "category": "Health Insurance",
+      "policy_type": "Family Floater",
+      "name": {
+        "en": "Manipal Cigna ProHealth Insurance",
+        "te": "మణిపాల్ సిగ్నా ప్రోహెల్త్ ఇన్సూరెన్స్",
+        "hi": "मणिपाल सिग्ना प्रोहेल्थ इंश्योरेंस"
+      },
+      "description": {
+        "en": "Comprehensive family health plan with global coverage and wellness benefits. Includes annual health check-ups and preventive care.",
+        "te": "గ్లోబల్ కవరేజ్ మరియు వెల్నెస్ ప్రయోజనాలతో సమగ్ర కుటుంబ ఆరోగ్య ప్లాన్.",
+        "hi": "वैश्विक कवरेज और कल्याण लाभों के साथ व्यापक पारिवारिक स्वास्थ्य योजना।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹1Cr. Global coverage. Wellness benefits. Annual health check-ups. Preventive care coverage.",
+        "te": "₹5L-₹1Cr బీమా రాశి. గ్లోబల్ కవరేజ్.",
+        "hi": "₹5L-₹1Cr बीमा राशि। वैश्विक कवरेज।"
+      },
+      "ideal_for": {
+        "en": "Families with international travel needs seeking comprehensive health coverage with global emergency support.",
+        "te": "గ్లోబల్ అత్యవసర మద్దతుతో సమగ్ర ఆరోగ్య కవరేజ్ కోరుకునే అంతర్జాతీయ ప్రయాణ అవసరాలు ఉన్న కుటుంబాలు.",
+        "hi": "वैश्विक आपातकालीन सहायता के साथ व्यापक स्वास्थ्य कवरेज चाहने वाले अंतर्राष्ट्रीय यात्रा आवश्यकताओं वाले परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 15000,
+      "cta": "Get Quote",
+      "official_source": "https://www.manipalcigna.com",
+      "video": "/videos/en/manipal_health.mp4"
+    },
+    {
+      "id": "policy_personal_accident",
+      "type": "insurance_policy",
+      "provider": "HDFC ERGO",
+      "category": "Accident Insurance",
+      "policy_type": "Personal Accident",
+      "name": {
+        "en": "HDFC ERGO Personal Accident Insurance",
+        "te": "HDFC ERGO పర్సనల్ యాక్సిడెంట్ ఇన్సూరెన్స్",
+        "hi": "HDFC ERGO पर्सनल एक्सीडेंट इंश्योरेंस"
+      },
+      "description": {
+        "en": "Comprehensive personal accident insurance covering accidental death, disability, medical expenses, and loss of income due to accidents.",
+        "te": "ప్రమాద మరణం, వైకల్యం, వైద్య ఖర్చులు మరియు ప్రమాదాల కారణంగా ఆదాయ నష్టాన్ని కవర్ చేసే సమగ్ర వ్యక్తిగత ప్రమాద బీమా.",
+        "hi": "दुर्घटना मृत्यु, विकलांगता, चिकित्सा खर्च और दुर्घटनाओं के कारण आय की हानि को कवर करने वाला व्यापक व्यक्तिगत दुर्घटना बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹1L-₹1Cr. Accidental death benefit. Permanent/temporary disability. Medical expenses. Weekly compensation for hospitalization.",
+        "te": "₹1L-₹1Cr బీమా రాశి. ప్రమాద మరణ ప్రయోజనం.",
+        "hi": "₹1L-₹1Cr बीमा राशि। दुर्घटना मृत्यु लाभ।"
+      },
+      "ideal_for": {
+        "en": "Individuals seeking financial protection against accidents with comprehensive coverage for death, disability, and medical expenses.",
+        "te": "మరణం, వైకల్యం మరియు వైద్య ఖర్చులకు సమగ్ర కవరేజ్‌తో ప్రమాదాలకు వ్యతిరేకంగా ఆర్థిక రక్షణ కోరుకునే వ్యక్తులు.",
+        "hi": "मृत्यु, विकलांगता और चिकित्सा खर्चों के लिए व्यापक कवरेज के साथ दुर्घटनाओं के खिलाफ वित्तीय सुरक्षा चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 70,
+      "minPremium": 500,
+      "cta": "Get Quote",
+      "official_source": "https://www.hdfcergo.com",
+      "video": "/videos/en/accident_insurance.mp4"
+    }
+,
+    {
+      "id": "policy_hospital_cash",
+      "type": "insurance_policy",
+      "provider": "Star Health",
+      "category": "Hospital Cash",
+      "policy_type": "Hospital Daily Cash",
+      "name": {
+        "en": "Star Hospital Cash Insurance",
+        "te": "స్టార్ హాస్పిటల్ క్యాష్ ఇన్సూరెన్స్",
+        "hi": "स्टार हॉस्पिटल कैश इंश्योरेंस"
+      },
+      "description": {
+        "en": "Daily cash benefit for each day of hospitalization. Provides fixed daily amount to cover incidental expenses during hospital stay.",
+        "te": "ఆసుపత్రిలో ఉన్న ప్రతి రోజుకు రోజువారీ నగదు ప్రయోజనం.",
+        "hi": "अस्पताल में भर्ती के प्रत्येक दिन के लिए दैनिक नकद लाभ।"
+      },
+      "coverage_summary": {
+        "en": "Daily cash ₹500-₹5,000 per day. Up to 365 days per year. Covers ICU stay with double benefit. No medical bills required.",
+        "te": "రోజువారీ నగదు ₹500-₹5,000 రోజుకు. సంవత్సరానికి 365 రోజుల వరకు.",
+        "hi": "दैनिक नकद ₹500-₹5,000 प्रति दिन। प्रति वर्ष 365 दिनों तक।"
+      },
+      "ideal_for": {
+        "en": "Individuals seeking additional financial support during hospitalization to cover incidental expenses and loss of income.",
+        "te": "ఆసుపత్రిలో ఉన్నప్పుడు యాదృచ్ఛిక ఖర్చులు మరియు ఆదాయ నష్టాన్ని కవర్ చేయడానికి అదనపు ఆర్థిక మద్దతు కోరుకునే వ్యక్తులు.",
+        "hi": "अस्पताल में भर्ती के दौरान आकस्मिक खर्चों और आय की हानि को कवर करने के लिए अतिरिक्त वित्तीय सहायता चाहने वाले व्यक्ति।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 2000,
+      "cta": "Get Quote",
+      "official_source": "https://starhealth.in",
+      "video": "/videos/en/hospital_cash.mp4"
+    },
+    {
+      "id": "policy_opd_cover",
+      "type": "insurance_policy",
+      "provider": "Niva Bupa",
+      "category": "OPD Coverage",
+      "policy_type": "OPD Insurance",
+      "name": {
+        "en": "Niva Bupa OPD Care Insurance",
+        "te": "నివా బూపా OPD కేర్ ఇన్సూరెన్స్",
+        "hi": "निवा बूपा OPD केयर इंश्योरेंस"
+      },
+      "description": {
+        "en": "Dedicated OPD insurance covering doctor consultations, diagnostic tests, medicines, and preventive care without hospitalization.",
+        "te": "ఆసుపత్రి లేకుండా డాక్టర్ సంప్రదింపులు, డయాగ్నోస్టిక్ పరీక్షలు, మందులు మరియు నివారణ సంరక్షణను కవర్ చేసే అంకిత OPD బీమా.",
+        "hi": "अस्पताल में भर्ती के बिना डॉक्टर परामर्श, नैदानिक परीक्षण, दवाएं और निवारक देखभाल को कवर करने वाला समर्पित OPD बीमा।"
+      },
+      "coverage_summary": {
+        "en": "OPD limit ₹10K-₹50K per year. Doctor consultations. Diagnostic tests. Pharmacy bills. Dental and eye check-ups.",
+        "te": "సంవత్సరానికి OPD పరిమితి ₹10K-₹50K. డాక్టర్ సంప్రదింపులు.",
+        "hi": "प्रति वर्ष OPD सीमा ₹10K-₹50K। डॉक्टर परामर्श।"
+      },
+      "ideal_for": {
+        "en": "Individuals and families seeking coverage for routine medical expenses without hospitalization.",
+        "te": "ఆసుపత్రి లేకుండా రొటీన్ వైద్య ఖర్చులకు కవరేజ్ కోరుకునే వ్యక్తులు మరియు కుటుంబాలు.",
+        "hi": "अस्पताल में भर्ती के बिना नियमित चिकित्सा खर्चों के लिए कवरेज चाहने वाले व्यक्ति और परिवार।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 3500,
+      "cta": "Get Quote",
+      "official_source": "https://nivabupa.com",
+      "video": "/videos/en/opd_care.mp4"
+    },
+    {
+      "id": "policy_kidney_care",
+      "type": "insurance_policy",
+      "provider": "Care Health",
+      "category": "Specialized Health",
+      "policy_type": "Kidney Care",
+      "name": {
+        "en": "Care Kidney Care Insurance",
+        "te": "కేర్ కిడ్నీ కేర్ ఇన్సూరెన్స్",
+        "hi": "केयर किडनी केयर इंश्योरेंस"
+      },
+      "description": {
+        "en": "Specialized insurance for kidney-related treatments including dialysis, kidney transplant, and chronic kidney disease management.",
+        "te": "డయాలసిస్, కిడ్నీ మార్పిడి మరియు దీర్ఘకాలిక కిడ్నీ వ్యాధి నిర్వహణతో సహా కిడ్నీ-సంబంధిత చికిత్సల కోసం ప్రత్యేక బీమా.",
+        "hi": "डायलिसिस, किडनी प्रत्यारोपण और पुरानी किडनी रोग प्रबंधन सहित किडनी से संबंधित उपचारों के लिए विशेष बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹25L. Covers dialysis. Kidney transplant. Donor expenses. Post-transplant care. Immunosuppressant drugs.",
+        "te": "₹5L-₹25L బీమా రాశి. డయాలసిస్ కవర్ చేస్తుంది.",
+        "hi": "₹5L-₹25L बीमा राशि। डायलिसिस को कवर करता है।"
+      },
+      "ideal_for": {
+        "en": "Individuals with chronic kidney disease or family history of kidney problems seeking comprehensive kidney care coverage.",
+        "te": "దీర్ఘకాలిక కిడ్నీ వ్యాధి లేదా కిడ్నీ సమస్యల కుటుంబ చరిత్ర ఉన్న వ్యక్తులు సమగ్ర కిడ్నీ కేర్ కవరేజ్ కోరుకుంటున్నారు.",
+        "hi": "पुरानी किडनी रोग या किडनी समस्याओं के पारिवारिक इतिहास वाले व्यक्ति व्यापक किडनी देखभाल कवरेज चाहते हैं।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "minPremium": 18000,
+      "cta": "Get Quote",
+      "official_source": "https://www.careinsurance.com",
+      "video": "/videos/en/kidney_care.mp4"
+    }
+,
+    {
+      "id": "policy_stroke_care",
+      "type": "insurance_policy",
+      "provider": "ICICI Lombard",
+      "category": "Specialized Health",
+      "policy_type": "Stroke Care",
+      "name": {
+        "en": "ICICI Lombard Stroke Care Insurance",
+        "te": "ICICI లొంబార్డ్ స్ట్రోక్ కేర్ ఇన్సూరెన్స్",
+        "hi": "ICICI लोम्बार्ड स्ट्रोक केयर इंश्योरेंस"
+      },
+      "description": {
+        "en": "Specialized coverage for stroke treatment including emergency care, rehabilitation, and long-term recovery support.",
+        "te": "అత్యవసర సంరక్షణ, పునరావాసం మరియు దీర్ఘకాలిక కోలుకోవడం మద్దతుతో సహా స్ట్రోక్ చికిత్స కోసం ప్రత్యేక కవరేజ్.",
+        "hi": "आपातकालीन देखभाल, पुनर्वास और दीर्घकालिक रिकवरी सहायता सहित स्ट्రोक उपचार के लिए विशेष कवरेज।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹5L-₹50L. Emergency stroke treatment. Rehabilitation therapy. Physiotherapy. Speech therapy. Long-term care.",
+        "te": "₹5L-₹50L బీమా రాశి. అత్యవసర స్ట్రోక్ చికిత్స.",
+        "hi": "₹5L-₹50L बीमा राशि। आपातकालीन स्ट्रोक उपचार।"
+      },
+      "ideal_for": {
+        "en": "Individuals at risk of stroke or with family history seeking comprehensive stroke care and rehabilitation coverage.",
+        "te": "స్ట్రోక్ ప్రమాదంలో ఉన్న లేదా కుటుంబ చరిత్ర ఉన్న వ్యక్తులు సమగ్ర స్ట్రోక్ కేర్ మరియు పునరావాస కవరేజ్ కోరుకుంటున్నారు.",
+        "hi": "स्ट्रोक के जोखिम में या पारिवारिक इतिहास वाले व्यक्ति व्यापक स्ट्रोक देखभाल और पुनर्वास कवरेज चाहते हैं।"
+      },
+      "minAge": 30,
+      "maxAge": 70,
+      "minPremium": 12000,
+      "cta": "Get Quote",
+      "official_source": "https://www.icicilombard.com",
+      "video": "/videos/en/stroke_care.mp4"
+    },
+    {
+      "id": "policy_vision_care",
+      "type": "insurance_policy",
+      "provider": "Bajaj Allianz",
+      "category": "Vision Care",
+      "policy_type": "Eye Care Insurance",
+      "name": {
+        "en": "Bajaj Allianz Vision Care Insurance",
+        "te": "బజాజ్ అలియాంజ్ విజన్ కేర్ ఇన్సూరెన్స్",
+        "hi": "बजाज आलियांज विजन केयर इंश्योरेंस"
+      },
+      "description": {
+        "en": "Comprehensive eye care insurance covering eye surgeries, treatments, spectacles, contact lenses, and regular eye check-ups.",
+        "te": "కంటి శస్త్రచికిత్సలు, చికిత్సలు, కళ్ళద్దాలు, కాంటాక్ట్ లెన్స్‌లు మరియు రెగ్యులర్ కంటి చెక్-అప్‌లను కవర్ చేసే సమగ్ర కంటి సంరక్షణ బీమా.",
+        "hi": "आंखों की सर्जरी, उपचार, चश्मे, कॉन्टैक्ट लेंस और नियमित आंखों की जांच को कवर करने वाला व्यापक नेत्र देखभाल बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹1L-₹5L. Cataract surgery. LASIK. Retinal treatments. Spectacles and contact lenses. Annual eye check-ups.",
+        "te": "₹1L-₹5L బీమా రాశి. కంటిశుక్లం శస్త్రచికిత్స.",
+        "hi": "₹1L-₹5L बीमा राशि। मोतियाबिंद सर्जरी।"
+      },
+      "ideal_for": {
+        "en": "Individuals with vision problems or seeking comprehensive eye care coverage including corrective procedures.",
+        "te": "దృష్టి సమస్యలు ఉన్న లేదా దిద్దుబాటు ప్రక్రియలతో సహా సమగ్ర కంటి సంరక్షణ కవరేజ్ కోరుకునే వ్యక్తులు.",
+        "hi": "दृष्टि समस्याओं वाले या सुधारात्मक प्रक्रियाओं सहित व्यापक नेत्र देखभाल कवरेज चाहने वाले व्यक्ति।"
+      },
+      "minAge": 5,
+      "maxAge": 75,
+      "minPremium": 2500,
+      "cta": "Get Quote",
+      "official_source": "https://www.bajajallianz.com",
+      "video": "/videos/en/vision_care.mp4"
+    },
+    {
+      "id": "policy_women_health",
+      "type": "insurance_policy",
+      "provider": "Star Health",
+      "category": "Women's Health",
+      "policy_type": "Women's Health Insurance",
+      "name": {
+        "en": "Star Women's Health Insurance",
+        "te": "స్టార్ మహిళల ఆరోగ్య బీమా",
+        "hi": "स्टार महिला स्वास्थ्य बीमा"
+      },
+      "description": {
+        "en": "Specialized health insurance for women covering maternity, gynecological treatments, breast cancer screening, and women-specific health issues.",
+        "te": "మెటర్నిటీ, గైనకాలజికల్ చికిత్సలు, రొమ్ము క్యాన్సర్ స్క్రీనింగ్ మరియు మహిళలకు సంబంధించిన ఆరోగ్య సమస్యలను కవర్ చేసే మహిళల కోసం ప్రత్యేక ఆరోగ్య బీమా.",
+        "hi": "मातृत्व, स्त्री रोग उपचार, स्तन कैंसर जांच और महिलाओं की विशिष्ट स्वास्थ्य समस्याओं को कवर करने वाला महिलाओं के लिए विशेष स्वास्थ्य बीमा।"
+      },
+      "coverage_summary": {
+        "en": "Sum insured ₹3L-₹25L. Maternity coverage. Gynecological treatments. Breast cancer screening. Newborn baby cover. Fertility treatments.",
+        "te": "₹3L-₹25L బీమా రాశి. మెటర్నిటీ కవరేజ్.",
+        "hi": "₹3L-₹25L बीमा राशि। मातृत्व कवरेज।"
+      },
+      "ideal_for": {
+        "en": "Women seeking comprehensive health coverage including maternity and women-specific health conditions.",
+        "te": "మెటర్నిటీ మరియు మహిళలకు సంబంధించిన ఆరోగ్య పరిస్థితులతో సహా సమగ్ర ఆరోగ్య కవరేజ్ కోరుకునే మహిళలు.",
+        "hi": "मातृत्व और महिलाओं की विशिष्ट स्वास्थ्य स्थितियों सहित व्यापक स्वास्थ्य कवरेज चाहने वाली महिलाएं।"
+      },
+      "minAge": 18,
+      "maxAge": 65,
+      "gender": "Female",
+      "minPremium": 10000,
+      "cta": "Get Quote",
+      "official_source": "https://starhealth.in",
+      "video": "/videos/en/women_health.mp4"
+    }
+  ]
+}

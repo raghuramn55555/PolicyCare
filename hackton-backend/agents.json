@@ -1,0 +1,108 @@
+{
+    "agents": [
+        {
+            "id": "agent-001",
+            "name": "Ramesh Sharma",
+            "type": "LIC Specialist",
+            "licenseId": "LIC-HYD-9982",
+            "languages": [
+                "English",
+                "Hindi",
+                "Telugu"
+            ],
+            "specialization": [
+                "Term Insurance",
+                "Pension Plans"
+            ],
+            "location": "Hyderabad, Telangana",
+            "pincode": "500001",
+            "radius": 15,
+            "contact": "+91 98765 43210",
+            "whatsapp": "+91 98765 43210",
+            "description": "Certified agent with 10+ years experience in helping families secure their future with LIC."
+        },
+        {
+            "id": "agent-002",
+            "name": "Suresh Babu",
+            "type": "Govt Scheme Consultant",
+            "licenseId": "GOV-AP-4521",
+            "languages": [
+                "Telugu",
+                "English"
+            ],
+            "specialization": [
+                "PMJJBY",
+                "PMSBY",
+                "APY"
+            ],
+            "location": "Vijayawada, Andhra Pradesh",
+            "pincode": "520001",
+            "radius": 20,
+            "contact": "+91 87654 32109",
+            "whatsapp": "+91 87654 32109",
+            "description": "Dedicated consultant for government buyable insurance and pension schemes."
+        },
+        {
+            "id": "agent-003",
+            "name": "Anita Kumari",
+            "type": "Health Insurance Expert",
+            "licenseId": "IRDA-HLT-5561",
+            "languages": [
+                "Hindi",
+                "English"
+            ],
+            "specialization": [
+                "LIC Health",
+                "Private Health"
+            ],
+            "location": "New Delhi, Delhi",
+            "pincode": "110001",
+            "radius": 10,
+            "contact": "+91 76543 21098",
+            "whatsapp": "+91 76543 21098",
+            "description": "Helping individuals find the best health coverage for their families."
+        },
+        {
+            "id": "agent-004",
+            "name": "Mohammed Ali",
+            "type": "General Insurance Agent",
+            "licenseId": "LIC-MUM-1234",
+            "languages": [
+                "English",
+                "Hindi",
+                "Marathi"
+            ],
+            "specialization": [
+                "Term Insurance",
+                "Group Insurance"
+            ],
+            "location": "Mumbai, Maharashtra",
+            "pincode": "400001",
+            "radius": 12,
+            "contact": "+91 99887 76655",
+            "whatsapp": "+91 99887 76655",
+            "description": "Expert in corporate and individual term insurance plans."
+        },
+        {
+            "id": "agent-005",
+            "name": "Priya Das",
+            "type": "Pension & Retirement Planner",
+            "licenseId": "LIC-KOL-8765",
+            "languages": [
+                "Bengali",
+                "English",
+                "Hindi"
+            ],
+            "specialization": [
+                "Pension Plus",
+                "APY"
+            ],
+            "location": "Kolkata, West Bengal",
+            "pincode": "700001",
+            "radius": 18,
+            "contact": "+91 88776 65544",
+            "whatsapp": "+91 88776 65544",
+            "description": "Helping you plan a stress-free retirement with guaranteed pension schemes."
+        }
+    ]
+}
